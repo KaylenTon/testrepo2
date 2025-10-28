@@ -1,5 +1,2 @@
-library(janitor)
-library(tidyverse)
-
 mtcars %>% 
   ggplot(aes(as.factor(cyl), mpg)) + geom_col()
